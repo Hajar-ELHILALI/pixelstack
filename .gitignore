@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+
+# env files (the real token lives in .env.local — NEVER commit it)
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local test output
+test/out-*.svg

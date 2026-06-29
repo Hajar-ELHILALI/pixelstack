@@ -1,0 +1,24 @@
+{
+  "name": "pixelstack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pixel-art GitHub README components (stats HUD + tech-stack badges) — Next.js + Tailwind.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "render:test": "node test/render.mjs"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "simple-icons": "^13.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
