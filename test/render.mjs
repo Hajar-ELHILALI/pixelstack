@@ -19,6 +19,6 @@ out(
   })
 );
 out('stack-dracula', renderStack({ stack: 'java,spring-boot,docker', theme: 'dracula' }));
-out('stats-midnight', renderStats({ stats: { commits: 1200, repos: 24, prs: 38, streak: 12 }, theme: 'midnight' }));
-out('stats-dracula', renderStats({ stats: { commits: 1200, repos: 24, prs: 38, streak: 12 }, theme: 'dracula' }));
+out('stats-midnight', renderStats({ stats: { commits: 1200, repos: 24, prs: 38, contributions: 445 }, theme: 'midnight' }));
+out('stats-dracula', renderStats({ stats: { commits: 1200, repos: 24, prs: 38, contributions: 445 }, theme: 'dracula' }));
 out('stats-error', renderStats({ stats: { error: 'GITHUB_TOKEN non configure' }, theme: 'midnight' }));
