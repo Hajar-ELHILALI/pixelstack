@@ -114,11 +114,6 @@ export default function Home() {
             {markdown}
           </pre>
         </section>
-
-        <footer className="mt-12 text-xs text-zinc-600">
-          La carte stats nécessite la variable d&apos;environnement{' '}
-          <code className="text-zinc-400">GITHUB_TOKEN</code> (à définir sur Vercel).
-        </footer>
       </div>
     </main>
   );
